@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/maxbrizolla/brcobranca.git
-  revision: ccaf2bbb11daad1a32dc4e775a420420f4b07161
+  revision: aa2b6c5b07bb96f4f81d853819147560b369f61f
   specs:
     brcobranca (9.2.2)
       activemodel (>= 3)

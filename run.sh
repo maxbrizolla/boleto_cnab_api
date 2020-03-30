@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker run -tid -p 9292:9292 maxbrizolla/boleto_api
+docker run -tid -p 9292:9292 --name boleto_api maxbrizolla/boleto_api

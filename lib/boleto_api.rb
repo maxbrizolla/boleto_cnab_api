@@ -14,7 +14,7 @@ module BoletoApi
   end
 
   def self.get_pagamento(values)
-   date_fields = %w[data_vencimento data_emissao data_desconto data_segundo_desconto data_multa]
+   date_fields = %w[data_vencimento data_emissao data_desconto data_segundo_desconto]
    date_fields.each do |date_field|
       values[date_field] = Date.parse(values[date_field]) if values[date_field]
     end
